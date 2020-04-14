@@ -5,4 +5,9 @@ Brandon Nelson's portfolio website utilizing bootstrap code. I prefer a minimal,
 * Social Media button code was pulled from Font Awesome.
 * Placeholder images come to you from Unsplash.
 
+# Edit: 4/13/2020
+* I made styling changes to some of the column headers.
+* The mailto in the contact form submition actually works.
+* Created a column on the portfolio page to explain my projects.
+
 Thank you!
