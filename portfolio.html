@@ -5,23 +5,23 @@
   <meta charset="UTF-8">
   <script src="https://use.fontawesome.com/2214a7171f.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="Assets/css/portfolio_style.css">
   <title>Bootstrap Portfolio | Brandon</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container p-0">
-      <a class="navbar-brand" href="index.html">Brandon Nelson</a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+      <a id="navbar-brand" href="portfolio_index.html">Brandon Nelson</a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="portfolio_index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="portfolio_portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="portfolio_contact.html">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -36,29 +36,36 @@
           <div class="row">
             <div class="card-columns">
               <div class="card">
-                <img class="card-img-top" src="Assets/Images/laptop_coding.jfif" alt="laptop-coding">
-                <div class="centered">Coding</div>
+                <a id="noHover" href="https://smtmarie.github.io/Project-1/">
+                  <img class="card-img-top" src="Assets/Images/GitErDone_Logo.png" alt="first-project">
+                </a>
               </div>
               <div class="card mt-3">
                 <img class="card-img-top" src="Assets/Images/coding_skills.jfif" alt="coding-skills">
-                <div class="centered">Skills</div>
               </div>
               <div class="card">
                 <img class="card-img-top" src="Assets/Images/sleep_code.jfif" alt="eat-sleep">
-                <div class="centered">Eat Sleep Code!</div>
               </div>
               <div class="card mt-3">
                 <img class="card-img-top" src="Assets/Images/rubics_cube.jfif" alt="rubics-cube">
-                <div id="centered">Problem Solving</div>
               </div>
               <div class="card mt-3">
                 <img class="card-img-top" src="Assets/Images/purple_laptop.jfif" alt="purple-laptop">
-                <div class="centered">Cool Projects</div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-lg-3 p-0 mt-4">
+        <div class="card p-0">
+          <div class="card-header">
+            <b>About My Projects</b>
+          </div>
+          <div class="card-body">
+            <p>Git 'er Done is my first collaborative project. I worked with three other developers to create this browser-based app that rewards productivity with funny gifs.</p>
+            <p>The user creates daily to-dos. As each one is checked off, a light-hearted gif will appear as a congratulatory gesture. This will be an on-going project for me. I plan to add a timer to the to-dos; if the task isn't completed in a certain amount of time, a not-so-funny gif could appear to the user. This project could become a mobile app, as well.</p>
+            <p>Besides Git 'er Done, the other placeholders on this page are for links to my future projects I look forward to completing.  Please check out <a href="https://github.com/brandonln53?tab=repositories" target="_blank">my Github repository page</a> for other full-stack development assignments I've completed. Thank you for visiting!</p>
+          </div>
     </div>
   </div>
   <footer class="footer">
