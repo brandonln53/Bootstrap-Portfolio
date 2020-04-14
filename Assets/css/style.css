@@ -35,8 +35,16 @@ a:hover {
     background-color: rgb(46, 136, 98);
   }
 
-#noHover{
+#noHover {
     background-color: transparent;
+}
+
+#noHover1 {
+  background-color: transparent;
+}
+
+#noHover2 {
+  background-color: transparent;
 }
 
 
